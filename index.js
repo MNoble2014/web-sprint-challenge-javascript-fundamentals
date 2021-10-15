@@ -28,10 +28,10 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
-function summation() {
-  
+function summation(/*Your Code Here*/) {
+  /*Your Code Here*/
+
   }
-  
  
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
@@ -56,12 +56,9 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  const displayNames = []
-  zooAnimals.forEach(function(item) {
-    displayNames.push(`Name: ${item.animal_name}, Scientific: ${item.scientific_name}`)
-  });
-
-  console.log(displayNames);
+  function animalNames(/*Your Code Here*/){
+    /*Your Code Here*/
+  }
  
   
 
@@ -84,12 +81,9 @@ const zooAnimals = [
   Using lowPopulationAnimals use .filter() to create a new array of objects which contains only the animals with a population of less than 5.
   */
 
-  const lowPopulationAnimals = zooAnimals.filter(function(item) {
-    return item.population < 5
-    let newArray = lowPopulationAnimals
-    return lowPopulationAnimals.push
-  })
-  
+  function lowPopulationAnimals(/*Your Code Here*/){
+    /*Your Code Here*/
+  }
   
 
   /* 🦁🦁🦁 Request 4: .reduce() 🦁🦁🦁
@@ -111,8 +105,8 @@ const zooAnimals = [
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
 
-  function consume(/*Your Code Here */){
-    /*Your Code Here */
+  let consume = function(a, b, cb) {
+    return cb(a, b)
   }
  
   
