@@ -137,8 +137,10 @@ const greeting = (first, last) => `Hello ${first} ${last}, nice to meet you!`
 /* 🐴🐴🐴 Step 1: Base Constructor 🐴🐴🐴
  Use the constructor function named CuboidMaker to accept properties for length, width, and height which can be initialized as an object
 */
-function CuboidMaker(/*Your Code Here */){
-  /*Your Code Here */
+function CuboidMaker(l, w, h) {
+  this.l = l;
+  this.w = w;
+  this.h = h
 }
 
 
